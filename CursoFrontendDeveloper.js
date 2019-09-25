@@ -191,9 +191,39 @@
 					* Paginas
 	 /*Algunas metodologías de CSS OOCSS, BEM, SMACSS, ITCSS y Atomic Design*/
 
-/*Flexbox*/
+	 /*Contrucción de componentes*/
 
-/*Flexbox*/
+	 	/*Qué es un componente? Analicemos nuestros diseños*/
+
+	 		=> Vistas de la aplicación
+	 		**Se recomieda crear 
+
+	 	/*Qué es un componente? Analicemos nuestros diseños*/
+
+		 	/*Flexbox*/
+
+		 		=> Maquetación y diseño responsivo.
+		 		=> Aliniación.	
+
+		 	/*Flexbox*/
+
+		 	/*Nuestro nuevo sistema de layout: CSS Grid*/
+
+		 		=> Responsive.
+
+		 	/*Nuestro nuevo sistema de layout: CSS Grid*/
+
+		 	/*Estructura con HTML y BEM de un menú desplegable*/
+
+		 		
+
+		 	/*Estructura con HTML y BEM de un menú desplegable*/
+
+	 /*Contrucción de componentes*/
+
+	 /**/
+	 //sass /mnt/c/Users/jesus/OneDrive/Platzi/EscuelaJavaScript/CursoFrontendDeveloper/PlatziVideo/stylesRegistro.scss /mnt/c/Users/jesus/OneDrive/Platzi/EscuelaJavaScript/CursoFrontendDeveloper/PlatziVideo/stylesRegistro.css
+	 /**/
 
 /*Curso de Frontend Developer*/
 
