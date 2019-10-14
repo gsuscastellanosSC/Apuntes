@@ -29,6 +29,7 @@
 		nano   => Permite la edición de archivos en la consola(Para salir Ctrl+x). 
 		rm     => Se usa para borrar Archivos.
 		rm -rf => Se usa para borrar una carpeta.
+		mv nombre nuevo_Nombre => Se úsa para cambiar nombres de archivos.
 
 	/*Crear, editar, mover y elminar un archivo*/
 
