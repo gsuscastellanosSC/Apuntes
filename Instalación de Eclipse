@@ -1,0 +1,16 @@
+/*Crear acceso directo a Eclipse*/
+
+  https://www.youtube.com/watch?v=gVCJVkw1I5s
+
+  sudo gedit /usr/share/applications/eclipse.desktop
+
+  [Desktop Entry]
+  Type=Application
+  Name=eclipse
+  Comment=eclipse Integrated Development Environment
+  Icon=/home/RUTAECLIPSE/eclipse/icon.xpm
+  Exec=/home/RUTAECLIPSE/eclipse/eclipse
+  Terminal=false
+  Categories=Development;IDE;Java;
+  StartupWMClass=eclipse
+/*Crear acceso directo a Eclipse*/
