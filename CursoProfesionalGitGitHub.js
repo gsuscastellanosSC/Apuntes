@@ -104,9 +104,9 @@ git diff commint commint
 ************************Volver a una versión anterior************************
 *****************************************************************************
 
-git reset commit --hard (borramos todos los cambios y lo que tengamos en staging) 
+git reset commit --hard (borramos todos los cambios y lo que tengamos en staging)
 
-git reset commit --soft (soft conservamos cambios y lo que tengamos en staging) 
+git reset commit --soft (soft conservamos cambios y lo que tengamos en staging)
 
 git checkout (commit) Archivo.txt
 
@@ -220,7 +220,8 @@ git tag -d v0.1   && $ git push origin :refs/tags/v0.1 (Borrar tags)
 git checkout -b new-branch
 git show-branch --all (¿Cuales branch existen y sus historias)
 gitk (igual que la anterior per con gui)
-git push origin :[nombre_branch] (Elimina rama remota)
+git branch -d nombre_rama (Elimina rama local)
+git push origin :nombre_branch (Elimina rama remota)
 
 
 ************************
@@ -292,7 +293,7 @@ git stash drop (borrar un stash)
 ******************************************************
 
 git clean --dry-run (ver que se va a borrar)  **Ejecución en seco, como probraban los cohetes y los barcos**
-git clean -f (borrar)       
+git clean -f (borrar)
 
 ******************************************************
 *************LIMPIAR ARCHIVOS NO DESEADOS*************
