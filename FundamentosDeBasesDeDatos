@@ -25,6 +25,8 @@
 /*RDB ¿Qué?*/
 
 /*Instalación local de un RDBMS (Ubuntu)*/
-sudo apt-get install mysql-server Instalar
-sudo mysql Ejecutar
+  sudo apt-get install mysql-server Instalar
+  sudo mysql Ejecutar
+
+  sudo apt install mysql-workbench
 /*Instalación local de un RDBMS (Ubuntu)*/
