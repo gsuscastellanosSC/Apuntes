@@ -30,3 +30,7 @@
 
   sudo apt install mysql-workbench
 /*Instalación local de un RDBMS (Ubuntu)*/
+INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject) VALUES('jesus','localhost',PASSWORD('GsusC292020*'),'','','');
+
+
+https://www.conchaalviz.com/blog/como-habilitar-contrasena-para-el-root-de-mysql-en-linux/ (Cómo habilitar contraseña para el root de MySQL en Linux)

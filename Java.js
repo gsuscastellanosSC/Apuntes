@@ -20,3 +20,6 @@
       -->Identificador con su propia clave.
     /*Map*/
 /*Tipos de colecciones*/
+/*comentariar varias lineas al tiempo en eclipse*/
+  ctrl+shift+c|
+/*comentariar varias lineas al tiempo en eclipse*/
