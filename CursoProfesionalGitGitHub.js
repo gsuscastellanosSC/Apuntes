@@ -4,6 +4,7 @@
 
 git int
 
+rm -rf .git 
 *******************
 ****Iniciar Git****
 *******************
@@ -184,8 +185,8 @@ git push (origin) (master) (Sube Cambios)
 ssh-keygen -t rsa -b 4096 -C "jesuscastellanospaez@gmail.com" (crea la llave publica y privada)
 eval $(ssh-agent -s) (saber si el agente ssh esta ejecuntando)
 ssh-add ~/.ssh/id_rsa (agregar la llave privada)
-
 eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_rsa
+
 
 git remote set-url origin git@github.com:gsuscastellanosSC/hyperblog.git (cambiar url para que sea con ssh)
 

@@ -1,0 +1,5 @@
+date = Fecha
+echo = Imprimir en pantalla
+man [] = manual [comando del que se quiere saber más]
+history = Historia de todos los comandos
+  ! []    = [id de comando]
