@@ -130,5 +130,48 @@ tar xzf [NameFile.tgz] = desagrupar y Descomprimir
 
 /*Herramientas de búsqueda de archivos*/
 sudo updatedb = actualiza base de datos para usar el comando locate
-locate [archivo]
+locate [nameFile] = siempre updateDB antes de ejecutar, es util para buscar cualquier archivo
+whereis echo = busqueda de archivos binarios(comandos)
+find . -user sc -perm 644 = find se usa para ralizar busquedas complejas. Ejemplo todos los archivos del usuario "sc" con permisos 644
+find . -type f -mtime +1 = archivos modificados hace mas de 7 días.
+find . -type f -mtime +1 -exec cp {} [ruta/] \; = copiar archivos que cumplan con filtro de archivos modificados en el último día.
 /*Herramientas de búsqueda de archivos*/
+
+/*Herramientas para interactuar a través de HTTP*/
+curl [url] = petición 
+curl -v [url] | more = petición viendo toda la comunicación http
+curl -v [url] > /dev/null = ver información de encabezados http
+
+wget [url] = descargar recursos de servidores remotos
+/*Herramientas para interactuar a través de HTTP*/
+
+/*Acceso seguro a otras computadoras*/
+ssh = conectar con servidor remoto
+echo "Probando" | mail -s "Probando para Platzi" correo@DOMImplementation.com =enviar Correo desde servidor
+para profundizar https://platzi.com/clases/1667-linux/22840-autenticacion-de-clientes-y-servidores-sobre-ssh/
+/*Acceso seguro a otras computadoras*/
+
+/*Configuración de un servicio de mailing*/
+
+/*Configuración de un servicio de mailing*/
+
+/*Qué son y cómo se utilizan las variables de entorno*/
+echo $NameVar = Ver el contenido de una varaible de entorno
+export MyVar=QWERTY = Asignar un valor a una varaible durante la sesion
+/*Qué son y cómo se utilizan las variables de entorno*/
+
+/*Cómo y para qué escribir scripts en Bash*/
+vi bashrc = confirgurar $PATH para que se cargue la configuración siempre que se inicie una nueva sesion
+source .bashrc = agregar la confiduración
+/*Cómo y para qué escribir scripts en Bash*/
+
+/*Cómo y para qué dejar tareas programadas*/
+at now +2 minutes = programar tarea para ejecutar en dos minutos (ctrl+D=>para salir)
+crontab -e = crear tareas periodicas
+/*Cómo y para qué dejar tareas programadas*/
+
+
+/*Cómo se ejecutan los comandos estudiados en Windows y MacOS*/
+https://platzi.com/clases/1748-terminal/24411-como-se-ejecutan-los-comandos-estudiados-en-window/
+/*Cómo se ejecutan los comandos estudiados en Windows y MacOS*/
+
